@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Ice Cream</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Favorite Ice cream</h1>
+
+            <p>Please fill out your favorite ice cream</p>
+            <form id="content">
+              <div class="form-group">
+                <label for="first">First:</label>
+                <input id="first" class="form-control" type="text">
+              </div>
+
+              <div class="form-group">
+                <label for="second">Second:</label>
+                <input id="second" class="form-control" type="text">
+              </div>
+
+              <div class="form-group">
+                <label for="third">Third:</label>
+                <input id="third" class="form-control" type="text">
+              </div>
+
+              <div class="form-group">
+                <label for="fourth">Fourth:</label>
+                <input id="fourth" class="form-control" type="text">
+              </div>
+
+            <button type="submit" name="button">Enter</button>
+
+            </form>
+
+
+            <div id="result">
+            <h1>Your favorite things are:</h1>
+                <ul>
+                  <li>First: <span class="first"></span></li>
+                  <li>Second: <span class="second"></span></li>
+                  <li>Third: <span class="third"></span></li>
+                  <li>Fourth: <span class="fourth"></span></li>
+                  <li>Array: <span class="array"></span></li>
+                </ul>
+
+            </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
